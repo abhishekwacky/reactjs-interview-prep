@@ -5,6 +5,7 @@ import Counter from "./components/counter";
 import UseRefHook from "./components/useRef";
 import UseReducerHook from "./components/useReducer";
 import UseMemoUseCallbackHook from "./components/useMemoUseCallback";
+import UseMemo from "./components/useMemo";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <UseRefHook /> */}
       {/* <useCustomEffect /> */}
       {/* <UseReducerHook /> */}
-      <UseMemoUseCallbackHook />
+      {/* <UseMemoUseCallbackHook /> */}
+      <UseMemo />
     </>
   );
 }
