@@ -6,6 +6,7 @@ import UseRefHook from "./components/useRef";
 import UseReducerHook from "./components/useReducer";
 import UseMemoUseCallbackHook from "./components/useMemoUseCallback";
 import UseMemo from "./components/useMemo";
+import UseImperativeHandleHook from "./components/useImperativeHandleHook";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/* <useCustomEffect /> */}
       {/* <UseReducerHook /> */}
       {/* <UseMemoUseCallbackHook /> */}
-      <UseMemo />
+      {/* <UseMemo /> */}
+      <UseImperativeHandleHook />
     </>
   );
 }

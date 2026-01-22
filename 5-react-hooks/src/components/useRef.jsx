@@ -53,6 +53,14 @@ const UseRefHook = () => {
       <h5>Ques-3 How do you access a DOM element using useRef?</h5>
       <input ref={inputRef} />
 
+      {/* 
+        - Here ref element inside jsx lets you get a persistent reference to a DOM element or a React component after it renders, without causing re-renders. 
+          ref vs props (important distinction)
+        #Props v/s ref :-
+        Props → flow down, cause re-renders
+        Refs → mutable, do not cause re-renders
+      */}
+
       <h5>Ques-4 Difference between useState and useRef ?</h5>
 
       {/* 
