@@ -2,6 +2,7 @@ import "./App.css";
 import Counter from "./components/counter";
 import useWindowSize from "./hooks/use-window-size";
 import PostList from "./components/post-list";
+import DebouncedInput from "./components/debounced-input";
 
 function App() {
   const { width, height } = useWindowSize();
@@ -38,6 +39,12 @@ function App() {
         loading and error state as well ?
       </h5>
       <PostList />
+
+      <h5>
+        Ques-4 Build a Custom hook that delays updating a value until a
+        specified time has passed after the last change ?
+        <DebouncedInput />
+      </h5>
     </div>
   );
 }
