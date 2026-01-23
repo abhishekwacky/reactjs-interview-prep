@@ -1,6 +1,7 @@
 import "./App.css";
 import Counter from "./components/counter";
 import useWindowSize from "./hooks/use-window-size";
+import PostList from "./components/post-list";
 
 function App() {
   const { width, height } = useWindowSize();
@@ -31,6 +32,12 @@ function App() {
       </h5>
       <p>Width : {width}</p>
       <p>Height : {height}</p>
+
+      <h5>
+        Ques-3 Build a custom hook to fetch data from given URL and handle
+        loading and error state as well ?
+      </h5>
+      <PostList />
     </div>
   );
 }
