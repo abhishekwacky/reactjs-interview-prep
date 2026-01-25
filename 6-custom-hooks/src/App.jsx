@@ -4,6 +4,7 @@ import useWindowSize from "./hooks/use-window-size";
 import PostList from "./components/post-list";
 import DebouncedInput from "./components/debounced-input";
 import UserInfo from "./components/user-info";
+import IntersectionElement from "./components/intersection-element";
 
 function App() {
   const { width, height } = useWindowSize();
@@ -52,6 +53,12 @@ function App() {
         browser localStorage{" "}
       </h5>
       <UserInfo />
+
+      <h5>
+        Ques-6 Build a custom hook that observes when an element comes into the
+        viewport{" "}
+      </h5>
+      <IntersectionElement />
     </div>
   );
 }
