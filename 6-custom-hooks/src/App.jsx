@@ -3,6 +3,7 @@ import Counter from "./components/counter";
 import useWindowSize from "./hooks/use-window-size";
 import PostList from "./components/post-list";
 import DebouncedInput from "./components/debounced-input";
+import UserInfo from "./components/user-info";
 
 function App() {
   const { width, height } = useWindowSize();
@@ -43,8 +44,14 @@ function App() {
       <h5>
         Ques-4 Build a Custom hook that delays updating a value until a
         specified time has passed after the last change ?
-        <DebouncedInput />
       </h5>
+      <DebouncedInput />
+
+      <h5>
+        Ques-5 Build a custom hook that stores and retrieves data from the
+        browser localStorage{" "}
+      </h5>
+      <UserInfo />
     </div>
   );
 }
