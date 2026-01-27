@@ -18,7 +18,7 @@ const Header = () => {
         //     viewTransitionName: isTransitioning ? "slide" : "",
         //   };
         // }}
-        to="/"
+        to="/auth"
       >
         Home
       </NavLink>
